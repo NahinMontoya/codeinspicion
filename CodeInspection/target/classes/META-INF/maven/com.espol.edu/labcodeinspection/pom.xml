@@ -37,6 +37,7 @@
  <configuration>
  <rulesets>
  <ruleset>JosueMontoya_rule.xml</ruleset>
+  <ruleset>rule_josue.xml</ruleset>
 </rulesets>
  </configuration>
 </plugin>

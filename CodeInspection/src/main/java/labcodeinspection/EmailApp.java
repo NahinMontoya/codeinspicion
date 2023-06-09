@@ -2,9 +2,16 @@ package labcodeinspection;
 
 import java.util.Scanner;
 
-
+/**
+* EmailApp
+*/
 public class EmailApp {
-
+	private EmailApp() {
+        throw new UnsupportedOperationException("This is a utility class and cannot be instantiated");
+    }
+	/**
+	* main
+	*/
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
