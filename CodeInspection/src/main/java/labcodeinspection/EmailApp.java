@@ -2,6 +2,7 @@ package labcodeinspection;
 
 import java.util.Scanner;
 
+
 public class EmailApp {
 
 	public static void main(String[] args) {
@@ -17,10 +18,12 @@ public class EmailApp {
 
 		int depChoice = sc.nextInt();
 		sc.close();
+		
 
 		Email email = new Email(firstName, lastName);
 		email.setDeparment(depChoice);
 		email.generateEmail();
 		email.showInfo();
 	}
+	
 }
